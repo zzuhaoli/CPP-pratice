@@ -1,0 +1,62 @@
+#include<iostream>
+#include"classtemplate.hpp"
+
+int main()
+{
+    person<int,float>p1(1,1,1);
+    p1.set_age(20);
+    p1.set_length(180);
+    p1.set_weigth(86.5);
+    person<double,int>p2(1,1,1);
+    p2.set_age(23);
+    p2.set_length(182);
+    p2.set_weigth(87);
+
+    teacher<float,int,float>t1(1,1,1,"1",1);
+    t1.set_age(26);
+    t1.set_length(180);
+    t1.set_weigth(86.5);
+    t1.set_name("小明");
+    t1.set_income(15.6);
+    teacher<float,float,int>t2(1,1,1,"1",1);
+    t2.set_age(28);
+    t2.set_length(182);
+    t2.set_weigth(80.6);
+    t2.set_name("小华");
+    t2.set_income(18);
+
+    std::cout<<"第一个人的年龄为:"<<p1.get_age();
+    std::cout<<"岁"<<std::endl;
+    std::cout<<"第一个人的身高为:"<<p1.get_length();
+    std::cout<<"cm"<<std::endl;
+    std::cout<<"第一个人的体重为:"<<p1.get_weigth();
+    std::cout<<"kg"<<std::endl;
+    std::cout<<"*****************"<<std::endl;
+    std::cout<<"第二个人的年龄为:"<<p2.get_age();
+    std::cout<<"岁"<<std::endl;
+    std::cout<<"第二个人的身高为:"<<p2.get_length();
+    std::cout<<"cm"<<std::endl;
+    std::cout<<"第二个人的体重为:"<<p2.get_weigth();
+    std::cout<<"kg"<<std::endl;
+    std::cout<<"*****************"<<std::endl;
+    std::cout<<"第一位老师的姓名为:"<<t1.get_name()<<std::endl;
+    std::cout<<"第一位老师的年龄为:"<<t1.get_age();
+    std::cout<<"岁"<<std::endl;
+    std::cout<<"第一位老师的身高为:"<<t1.get_length();
+    std::cout<<"cm"<<std::endl;
+    std::cout<<"第一位老师的体重为:"<<t1.get_weigth();
+    std::cout<<"kg"<<std::endl;
+    std::cout<<"第一位老师的年收入为:"<<t1.get_income();
+    std::cout<<"万元"<<std::endl;
+    std::cout<<"*****************"<<std::endl;
+    std::cout<<"第二位老师的姓名为:"<<t2.get_name()<<std::endl;
+    std::cout<<"第二位老师的年龄为:"<<t2.get_age();
+    std::cout<<"岁"<<std::endl;
+    std::cout<<"第二位老师的身高为:"<<t2.get_length();
+    std::cout<<"cm"<<std::endl;
+    std::cout<<"第二位老师的体重为:"<<t2.get_weigth();
+    std::cout<<"kg"<<std::endl;
+    std::cout<<"第二位老师的年收入为:"<<t2.get_income();
+    std::cout<<"万元"<<std::endl;
+    return 0;
+}
