@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/lhaza/Desktop/train_cpp/project/include
+CXX_INCLUDES = -I/mnt/c/Users/lhaza/Desktop/train_cpp/SmallProject/include
 
 CXX_FLAGS = 
 

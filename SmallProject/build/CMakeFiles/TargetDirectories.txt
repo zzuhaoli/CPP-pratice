@@ -1,3 +1,3 @@
-/mnt/c/Users/lhaza/Desktop/train_cpp/project/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/lhaza/Desktop/train_cpp/project/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/lhaza/Desktop/train_cpp/project/build/CMakeFiles/main.dir
+/mnt/c/Users/lhaza/Desktop/train_cpp/SmallProject/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/lhaza/Desktop/train_cpp/SmallProject/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lhaza/Desktop/train_cpp/SmallProject/build/CMakeFiles/main.dir

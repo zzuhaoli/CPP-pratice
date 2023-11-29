@@ -11,6 +11,7 @@ class manager
         void show_menu();
         void exitsystem();
 	void show();
+	void savedata();
         
 	void addperson();
 	~manager();

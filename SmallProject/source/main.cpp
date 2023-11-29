@@ -17,6 +17,7 @@ int main()
 	      break;
 	 case 1:
 	      m.addperson();
+	      m.savedata();
               break;
 	 case 2:
 	      m.show();
